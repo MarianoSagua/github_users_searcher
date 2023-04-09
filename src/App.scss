@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app{
+  @media (max-width: 992px) {
+    margin-bottom: 40px;
+  }
+}
+
+#cardInfo{
+  @media (max-width: 600px) {
+    margin-left: 0;
+  }
+}
+
+#cardInfoTitles{
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+#cardInfoDescription, #cardInfoLogin{
+  @media (max-width: 600px) {
+    text-align: center;
+  }
+}
+
+#cardInfoData{
+  @media (max-width: 600px) {
+    display: grid;
+    place-content: center;
+  }
+}
+
+#cardInfoPaper{
+  @media (max-width: 600px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
